@@ -53,7 +53,7 @@ addTodo = (title) => {
   })  
   .then(res => this.setState({ todos: [...this.state.todos, res.data] })
   );    
-    
+}    
   
 
 
@@ -75,7 +75,7 @@ render()  {
         </div>
       </div>
     </Router>   
-  }
+  )}
 }
 
 export default App;
